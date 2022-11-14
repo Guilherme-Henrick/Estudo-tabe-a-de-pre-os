@@ -1,7 +1,11 @@
 @import url(styles.css);
 
 body{
-    background: linear-gradient(326deg, #4b6584 0%, #a55eea 74%);    
+    background-image: repeating-linear-gradient(45deg, #5f0a87 0, #5f0a87 0.5px, transparent 0, transparent 50%);
+    background-size: 47px 47px;
+    background-color: #d1d8e0;
+
+
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -89,6 +93,7 @@ h2{
 
 h1{
     font-size: 2.2em;
+    font-weight: 900;
 }
 
 p{
