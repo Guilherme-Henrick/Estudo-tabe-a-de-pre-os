@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    list-style: none;
+}
+
+:root {
+    --fonte:'Roboto', sans-serif;
+    --branco: #d1d8e0;
+    --cinza: #3d536d;
+    --sombra: #101010;
+    --roxo: #5f0a87;
+
+    
+    --cor-card-grande: #a55eea;
+}
