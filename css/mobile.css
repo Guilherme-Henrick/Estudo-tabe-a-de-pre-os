@@ -1,2 +1,26 @@
 @import url(styles.css);
 
+@media screen and (max-width: 700px){
+
+    body{
+        padding: 4em;
+        height: 100%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        width: 13em;
+        height: 17em;
+    }
+
+    .titulo h2{
+        font-size: 1.8em;
+    }
+    .titulo p{
+        font-size: 1.2em;
+    }
+}
