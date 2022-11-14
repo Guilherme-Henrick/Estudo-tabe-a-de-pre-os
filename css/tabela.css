@@ -1,7 +1,7 @@
 @import url(styles.css);
 
 body{
-    background: var(--branco);
+    background: linear-gradient(326deg, #4b6584 0%, #a55eea 74%);    
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -76,6 +76,7 @@ h2{
     width: 10em;
     height: 14em;
     color: var(--cinza);
+    background-color: var(--branco);
 }
 
 .cardGrande{
@@ -113,6 +114,13 @@ button{
     font-weight: bold;
     margin-top: 1em;
     cursor: pointer;
+
+    
+}
+
+.titulo p{
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .cardGrande p{
@@ -149,4 +157,10 @@ button{
     margin-top: 1.5em;
 }
 
+button:hover{
+    width: 100%;
+    border-radius: 200px;
+
+    transition: 300ms;
+}
 

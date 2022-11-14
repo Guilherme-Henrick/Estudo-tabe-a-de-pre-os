@@ -9,10 +9,14 @@
 :root {
     --fonte:'Roboto', sans-serif;
     --branco: #d1d8e0;
-    --cinza: #3d536d;
+    --cinza: #24303f;
     --sombra: #101010;
     --roxo: #5f0a87;
 
     
     --cor-card-grande: #a55eea;
+}
+
+.invisivel{
+    display: none;
 }
